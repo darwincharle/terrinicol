@@ -1,8 +1,8 @@
 services:
   - type: web
-    name: mi-app-python
+    name: terrinicol
     env: python
     plan: free
-    buildCommand: ""
-    startCommand: gunicorn app:app
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "streamlit run app.py --server.port=$PORT --server.address=0.0.0.0"
     autoDeploy: true
