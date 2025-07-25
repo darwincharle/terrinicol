@@ -2,6 +2,7 @@ services:
   - type: web
     name: terrinicol
     env: python
+    python_version: 3.10
     plan: free
     buildCommand: "pip install -r requirements.txt"
     startCommand: "streamlit run app.py --server.port=$PORT --server.address=0.0.0.0"
