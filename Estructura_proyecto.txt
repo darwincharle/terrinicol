@@ -1,0 +1,36 @@
+Nombre del proyecto: RareEarthInterface-web
+
+
+Estructura
+
+RareEarthInterface-web/
+├── app.py                  # Aplicación principal
+├── modules/
+│   ├── data_manager.py     # Gestión de datos
+│   ├── map_visualization.py # Mapa interactivo
+│   ├── wiki_integration.py # Conexión con Wikipedia
+│   └── quiz_engine.py      # Sistema de cuestionarios
+├── assets/
+│   ├── styles.css          # Estilos personalizados
+│   └── images/             # Imágenes locales
+└── requirements.txt
+
+
+----------------------------------
+
+Estructura para imagenes (images galery)
+
+assets/
+└── images/
+    ├── elements/
+    │   ├── lantano.png
+    │   ├── cerio.png
+    │   ├── neodimio.png
+    │   └── [otros elementos].png
+    └── ui/
+        ├── logo.png
+        ├── background.jpg
+        └── default_element.png
+
+
+

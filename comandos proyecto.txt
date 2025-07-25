@@ -1,0 +1,46 @@
+***** comando para inciar el proyecto:
+
+streamlit run app_web.py
+
+
+***** Comando para crear el entorno virtual
+
+python -m venv 
+
+.terrarcolweb\Scripts\Activate
+
+streamlit run app.py
+
+***** Comando apra instalar las librerías
+
+pip install -r requirements.txt
+
+***** Comando pzra actualizar y desinstalar librerias
+
+pip uninstall streamlit-folium folium
+pip install streamlit-folium --upgrade
+
+***** Comando para ver lo instalado en el entorno virtual python
+
+where python  # Windows
+which python # Linux/Mac
+
+***** Comando apra actualizar python y librerias
+
+python.exe -m pip install --upgrade pip
+
+*****Comando para inciar el proyecto, versión de app.py
+
+streamlit run app.py
+
+----------------------------------------
+
+Librerias usadas:
+
+streamlit
+pandas
+folium
+streamlit-folium
+wikipedia
+requests
+Pillow
